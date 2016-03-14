@@ -1,0 +1,48 @@
+html, body {
+	margin:0;
+	padding:0;
+	height:100%;
+}
+
+#wrapper {
+	width: 100%;
+	min-height: 100%;
+	background-color: black;
+	position: relative;
+}
+
+#header {
+	width: 90%;
+	height: 50px;
+	background-color: red;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+#navbar {
+	width: 10%;
+	height: 100%;
+	background-color: blue;
+	position: fixed;
+
+}
+
+#content {
+	width: 90%;
+	height: 100%;
+	background-color: yellow;
+	position: absolute;
+	top: 50px;
+	right: 0px;
+	padding-bottom: 50px;
+}
+
+#footer {
+	width: 90%;
+	height: 50px;
+	background-color: purple;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
